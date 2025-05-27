@@ -1,0 +1,162 @@
+/* CSS 部分 (style.css) */
+body {
+    font-family: 'Microsoft YaHei', SimSun, sans-serif;
+    line-height: 1.8;
+    color: #333;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f3f3;
+}
+
+header {
+    background-color: #9e1f1f;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+  body {
+            font-family: 'Microsoft YaHei', SimSun, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f3f3;
+        }
+        header {
+            background-color: #9e1f1f;
+            color: white;
+            padding: 30px;
+            text-align: center;
+            border-radius: 8px;
+            margin-bottom: 40px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .subtitle {
+            font-size: 1.2em;
+            margin-top: 10px;
+            font-weight: normal;
+        }
+        .timeline-container {
+            position: relative;
+            padding: 20px 0;
+        }
+        .timeline-line {
+            position: absolute;
+            left: 150px;
+            top: 0;
+            bottom: 0;
+            width: 4px;
+            background: linear-gradient(to bottom, #9e1f1f, #d9534f);
+            border-radius: 2px;
+        }
+        .timeline-item {
+            position: relative;
+            margin-bottom: 40px;
+            padding-left: 180px;
+            min-height: 100px;
+        }
+        .timeline-date {
+            position: absolute;
+            left: 0;
+            width: 120px;
+            padding: 8px 15px;
+            background-color: #9e1f1f;
+            color: white;
+            text-align: center;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 1.1em;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+        }
+        .timeline-content {
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            border-left: 5px solid #d9534f;
+            transition: transform 0.3s ease;
+        }
+        .timeline-content:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        .timeline-content h3 {
+            margin-top: 0;
+            color: #9e1f1f;
+            font-size: 1.4em;
+            border-bottom: 1px dashed #ddd;
+            padding-bottom: 10px;
+        }
+        .timeline-details {
+            margin-top: 15px;
+        }
+        .timeline-details p {
+            margin-bottom: 10px;
+        }
+        .timeline-image {
+            margin: 15px 0;
+            max-width: 100%;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .important-event {
+            background-color: #fff9f9;
+            border-left: 5px solid #9e1f1f;
+        }
+        .timeline-marker {
+            position: absolute;
+            left: 146px;
+            top: 20px;
+            width: 12px;
+            height: 12px;
+            background-color: #9e1f1f;
+            border-radius: 50%;
+            border: 3px solid #f9f3f3;
+            z-index: 1;
+        }
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9em;
+        }
+        .back-to-top {
+            display: block;
+            text-align: center;
+            margin-top: 30px;
+        }
+        .back-to-top a {
+            color: #9e1f1f;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        @media (max-width: 768px) {
+            .timeline-item {
+                padding-left: 100px;
+            }
+            .timeline-date {
+                width: 80px;
+                font-size: 0.9em;
+            }
+            .timeline-line {
+                left: 90px;
+            }
+            .timeline-marker {
+                left: 86px;
+            }
+        }
+
+/* 保持原有所有CSS样式规则不变... */
+/* 此处应包含原始<style>标签内的全部内容 */
+
